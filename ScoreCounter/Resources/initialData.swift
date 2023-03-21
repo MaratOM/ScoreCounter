@@ -8,7 +8,7 @@
 import Foundation
 
 final class ScoreCounterStore: ObservableObject {
-    @Published var tabSelection: ContentView.Tab = .games
+    @Published var tabSelection: ContentView.Tab = .navigation
 
     @Published var games: [Game] = [
         .init(name: "Uno", type: .up),
